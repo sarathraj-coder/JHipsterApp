@@ -36,8 +36,8 @@ spring:
                     destination: topic-jhipster
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/CaseServer
-        username: CaseServer
+        url: jdbc:postgresql://localhost:5432/CaseServer1
+        username:
         password:
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect

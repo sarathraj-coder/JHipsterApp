@@ -41,8 +41,8 @@ spring:
                     destination: topic-jhipster
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/CaseServer
-        username: CaseServer
+        url: jdbc:postgresql://localhost:5432/caseserver
+        username:
         password:
     jpa:
         database-platform: io.github.jhipster.domain.util.FixedPostgreSQL82Dialect
@@ -62,6 +62,8 @@ spring:
                 path:
                     logs: build/elasticsearch/log
                     data: build/elasticsearch/data
+                http:
+                    enabled: true    
     mail:
         host: localhost
         port: 25
